@@ -26,6 +26,7 @@
         <module name="SpringBootAOP" />
         <module name="springbootbean" />
         <module name="SpringBootEL" />
+        <module name="SpringBootProfiles" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -33,6 +34,7 @@
       <module name="SpringBootAOP" target="1.8" />
       <module name="springbootbean" target="1.8" />
       <module name="SpringBootEL" target="1.8" />
+      <module name="SpringBootProfiles" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
