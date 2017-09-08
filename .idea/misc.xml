@@ -8,6 +8,7 @@
       <list>
         <option value="$PROJECT_DIR$/SpringBootAno/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootEL/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootBean/pom.xml" />
       </list>
     </option>
   </component>
