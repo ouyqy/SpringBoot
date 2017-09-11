@@ -26,6 +26,7 @@
         <module name="SpringBootAOP" />
         <module name="springbootbean" />
         <module name="SpringBootEL" />
+        <module name="SpringBootEvent" />
         <module name="SpringBootProfiles" />
       </profile>
     </annotationProcessing>
@@ -34,6 +35,7 @@
       <module name="SpringBootAOP" target="1.8" />
       <module name="springbootbean" target="1.8" />
       <module name="SpringBootEL" target="1.8" />
+      <module name="SpringBootEvent" target="1.8" />
       <module name="SpringBootProfiles" target="1.8" />
     </bytecodeTargetLevel>
   </component>
