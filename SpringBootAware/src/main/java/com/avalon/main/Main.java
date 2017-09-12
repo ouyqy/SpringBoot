@@ -1,4 +1,4 @@
-package com.avalon.Main;
+package com.avalon.main;
 
 import com.avalon.Bean.AwareService;
 import com.avalon.Config.AwareConfig;

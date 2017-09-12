@@ -1,4 +1,4 @@
-package com.avalon.Main;
+package com.avalon.main;
 
 import com.avalon.config.DemoPublisher;
 import com.avalon.config.EventConfig;
