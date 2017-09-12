@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/SpringBootProfiles/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootEvent/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootAware/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootThread/pom.xml" />
       </list>
     </option>
   </component>

@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringBootEL/SpringBootEL.iml" filepath="$PROJECT_DIR$/SpringBootEL/SpringBootEL.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootEvent/SpringBootEvent.iml" filepath="$PROJECT_DIR$/SpringBootEvent/SpringBootEvent.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootProfiles/SpringBootProfiles.iml" filepath="$PROJECT_DIR$/SpringBootProfiles/SpringBootProfiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootThread/SpringBootThread.iml" filepath="$PROJECT_DIR$/SpringBootThread/SpringBootThread.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootBean/springbootbean.iml" filepath="$PROJECT_DIR$/SpringBootBean/springbootbean.iml" />
     </modules>
   </component>
