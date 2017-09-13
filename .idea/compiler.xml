@@ -22,6 +22,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="SpringBootAnnotation" />
         <module name="SpringBootAno" />
         <module name="SpringBootAOP" />
         <module name="SpringBootAware" />
@@ -35,6 +36,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="SpringBootAnnotation" target="1.8" />
+      <module name="SpringBootAnnotations" target="1.8" />
       <module name="SpringBootAno" target="1.5" />
       <module name="SpringBootAOP" target="1.8" />
       <module name="SpringBootAware" target="1.8" />

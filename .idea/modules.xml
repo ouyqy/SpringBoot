@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringBoot.iml" filepath="$PROJECT_DIR$/.idea/SpringBoot.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootAno/SpringBootAOP.iml" filepath="$PROJECT_DIR$/SpringBootAno/SpringBootAOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootAnnotation/SpringBootAnnotation.iml" filepath="$PROJECT_DIR$/SpringBootAnnotation/SpringBootAnnotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootAware/SpringBootAware.iml" filepath="$PROJECT_DIR$/SpringBootAware/SpringBootAware.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootContitional/SpringBootContitional.iml" filepath="$PROJECT_DIR$/SpringBootContitional/SpringBootContitional.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootEL/SpringBootEL.iml" filepath="$PROJECT_DIR$/SpringBootEL/SpringBootEL.iml" />
