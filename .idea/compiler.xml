@@ -24,16 +24,24 @@
         <processorPath useClasspath="true" />
         <module name="SpringBootAnnotation" />
         <module name="SpringBootAno" />
-        <module name="SpringBootAOP" />
         <module name="SpringBootAware" />
         <module name="springbootbean" />
+        <module name="SpringBootBean" />
         <module name="SpringBootContitional" />
         <module name="SpringBootEL" />
         <module name="SpringBootEvent" />
         <module name="SpringBootProfiles" />
         <module name="SpringBootSchedule" />
         <module name="springboottest" />
+        <module name="SpringBootTest" />
         <module name="SpringBootThread" />
+      </profile>
+      <profile default="false" name="Annotation profile for springboot" enabled="true">
+        <sourceOutputDir name="../SpringBootAno/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../SpringBootAno/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="SpringBootAOP" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -42,12 +50,14 @@
       <module name="SpringBootAno" target="1.5" />
       <module name="SpringBootAOP" target="1.8" />
       <module name="SpringBootAware" target="1.8" />
+      <module name="SpringBootBean" target="1.8" />
       <module name="springbootbean" target="1.8" />
       <module name="SpringBootContitional" target="1.8" />
       <module name="SpringBootEL" target="1.8" />
       <module name="SpringBootEvent" target="1.8" />
       <module name="SpringBootProfiles" target="1.8" />
       <module name="SpringBootSchedule" target="1.8" />
+      <module name="SpringBootTest" target="1.8" />
       <module name="springboottest" target="1.8" />
       <module name="SpringBootThread" target="1.8" />
     </bytecodeTargetLevel>
