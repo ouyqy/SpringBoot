@@ -32,6 +32,7 @@
         <module name="SpringBootEvent" />
         <module name="SpringBootProfiles" />
         <module name="SpringBootSchedule" />
+        <module name="springboottest" />
         <module name="SpringBootThread" />
       </profile>
     </annotationProcessing>
@@ -47,6 +48,7 @@
       <module name="SpringBootEvent" target="1.8" />
       <module name="SpringBootProfiles" target="1.8" />
       <module name="SpringBootSchedule" target="1.8" />
+      <module name="springboottest" target="1.8" />
       <module name="SpringBootThread" target="1.8" />
     </bytecodeTargetLevel>
   </component>

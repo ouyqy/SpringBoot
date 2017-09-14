@@ -1,0 +1,5 @@
+com\avalon\Annotation\Action.class
+com\avalon\Service\DemoAnnotationService.class
+com\avalon\Config\LogAspect.class
+com\avalon\Service\DemoMethodService.class
+com\avalon\Application.class

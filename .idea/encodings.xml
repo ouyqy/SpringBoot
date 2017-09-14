@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/SpringBootAOP" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBootAnnotation" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SpringBootAnnotations" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SpringBootAno" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBootAware" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBootBean" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBootContitional" charset="UTF-8" />
@@ -11,6 +10,7 @@
     <file url="file://$PROJECT_DIR$/SpringBootEvent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBootProfiles" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBootSchedule" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringBootTest" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringBootThread" charset="UTF-8" />
   </component>
 </project>
