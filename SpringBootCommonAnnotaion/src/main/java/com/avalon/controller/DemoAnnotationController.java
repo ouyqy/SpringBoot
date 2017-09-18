@@ -2,6 +2,7 @@ package com.avalon.controller;
 
 import com.avalon.bean.DemoObj;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -18,8 +19,14 @@ public class DemoAnnotationController {
     //此方法未标注路径,因此使用类级别的路径的/anno;produces可定制返回的response的媒体类型和字符集
     //如果需要返回值是json对象,则设置produces="application/json;charset=UTF-8"
     @RequestMapping(produces = "text/plain;charset=UTF-8")
-    public @ResponseBody String index(HttpServletRequest request){
-        return "url: "+ request.getRequestURL()+" can access "+request.getAttribute("startTime");
+    public @ResponseBody String index(HttpServletRequest request, @ModelAttribute("msg") String msg){
+        try {
+//            int a = 1/0;
+            return "url: "+ request.getRequestURL()+" can access "
+                    +request.getAttribute("startTime")+" model:"+msg;
+        }catch (Exception e){
+            throw new RuntimeException(e.getMessage());
+        }
     }
 
     //接收路径参数,并在方法参数前结合@PathVariable使用,访问路径为/anno/pathvar/xx
@@ -47,4 +54,6 @@ public class DemoAnnotationController {
     public @ResponseBody String remove(HttpServletRequest request){
         return "url: "+request.getRequestURL()+" can access";
     }
+
+
 }

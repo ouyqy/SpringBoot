@@ -15,7 +15,8 @@ public class DemoRestController {
     @RequestMapping(value = "/getJson",produces = "application/json;charset=UTF-8")
     public DemoObj getJson(DemoObj demoObj){
         //直接返回对象,对象会自动转换成json
-        return new DemoObj(String.valueOf(Integer.parseInt(demoObj.getId())+1),
+        return new DemoObj(String.valueOf(
+                Integer.parseInt(demoObj.getId()==null?"0":demoObj.getId())+1),
                 demoObj.getName()+"yy");
     }
 
@@ -23,7 +24,8 @@ public class DemoRestController {
     @RequestMapping(value = "/getXml",produces = "application/xml;charset=UTF-8")
     public DemoObj getXml(DemoObj demoObj){
         //直接返回对象,对象的类型会转换成xml
-        return new DemoObj(String.valueOf(Integer.parseInt(demoObj.getId())+1),
+        return new DemoObj(String.valueOf(
+                Integer.parseInt(demoObj.getId()==null?"0":demoObj.getId())+1),
                 demoObj.getName());
     }
 }
