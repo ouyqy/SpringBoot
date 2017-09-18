@@ -19,7 +19,7 @@ public class DemoAnnotationController {
     //如果需要返回值是json对象,则设置produces="application/json;charset=UTF-8"
     @RequestMapping(produces = "text/plain;charset=UTF-8")
     public @ResponseBody String index(HttpServletRequest request){
-        return "url: "+ request.getRequestURL()+" can access";
+        return "url: "+ request.getRequestURL()+" can access "+request.getAttribute("startTime");
     }
 
     //接收路径参数,并在方法参数前结合@PathVariable使用,访问路径为/anno/pathvar/xx
