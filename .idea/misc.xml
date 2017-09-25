@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/SpringBootAnnotation/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootTest/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootCommonAnnotaion/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootMultipartFile/pom.xml" />
       </list>
     </option>
   </component>

@@ -25,13 +25,14 @@
         <module name="SpringBootAnnotation" />
         <module name="SpringBootAno" />
         <module name="SpringBootAware" />
-        <module name="SpringBootBean" />
         <module name="springbootbean" />
+        <module name="SpringBootBean" />
         <module name="SpringBootCommonAnnotaion" />
         <module name="springbootcommonannotaion" />
         <module name="SpringBootContitional" />
         <module name="SpringBootEL" />
         <module name="SpringBootEvent" />
+        <module name="SpringBootMultipartFile" />
         <module name="SpringBootProfiles" />
         <module name="SpringBootSchedule" />
         <module name="springboottest" />
@@ -52,6 +53,7 @@
       <module name="SpringBootContitional" target="1.8" />
       <module name="SpringBootEL" target="1.8" />
       <module name="SpringBootEvent" target="1.8" />
+      <module name="SpringBootMultipartFile" target="1.8" />
       <module name="SpringBootProfiles" target="1.8" />
       <module name="SpringBootSchedule" target="1.8" />
       <module name="SpringBootTest" target="1.8" />

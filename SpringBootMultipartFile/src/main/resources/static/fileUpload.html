@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script type="text/javascript" src="jquery-11.js">
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#btn').on('click',function(){
+            var formData = new FormData();
+            var files = $("#file").prop("files");
+            console.log(files);
+            formData.append("file",files[0]);
+            console.log(files[0]);
+            console.log(formData);
+            $.ajax({
+                url:"http://localhost:8080/multipartfile/upload",
+                type:"POST",
+                data:formData,
+                processData:false,
+                contentType:false,
+                success:function(data){
+                    alert("上传"+data);
+                }
+            })
+        })
+    });
+</script>
+<body>
+    <form>
+        文件上传:<input type="file" id="file" name="file" multiple></br>
+        <input type="button" id="btn" value="上传">
+    </form>
+
+</body>
+</html>

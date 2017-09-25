@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringBootContitional/SpringBootContitional.iml" filepath="$PROJECT_DIR$/SpringBootContitional/SpringBootContitional.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootEL/SpringBootEL.iml" filepath="$PROJECT_DIR$/SpringBootEL/SpringBootEL.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootEvent/SpringBootEvent.iml" filepath="$PROJECT_DIR$/SpringBootEvent/SpringBootEvent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootMultipartFile/SpringBootMultipartFile.iml" filepath="$PROJECT_DIR$/SpringBootMultipartFile/SpringBootMultipartFile.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootProfiles/SpringBootProfiles.iml" filepath="$PROJECT_DIR$/SpringBootProfiles/SpringBootProfiles.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootSchedule/SpringBootSchedule.iml" filepath="$PROJECT_DIR$/SpringBootSchedule/SpringBootSchedule.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootTest/SpringBootTest.iml" filepath="$PROJECT_DIR$/SpringBootTest/SpringBootTest.iml" />
