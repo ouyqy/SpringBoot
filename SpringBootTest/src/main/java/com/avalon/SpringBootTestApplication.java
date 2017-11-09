@@ -9,6 +9,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import spring.avalon.start.demo.service.HelloService;
 
 @SpringBootApplication
 @RestController
@@ -19,6 +20,9 @@ public class SpringBootTestApplication {
 
 	@Value("${test.password}")
 	private String password;
+
+	@Autowired
+	private HelloService helloService;
 
 	@Autowired
 	private TestValueBean testValueBean;
@@ -39,6 +43,20 @@ public class SpringBootTestApplication {
 	@RequestMapping("/indexValueLocal")
 	public String indexValueLocal(){
 		return testValueLocalBean.getName()+"::"+testValueLocalBean.getEmail();
+	}
+
+	@RequestMapping("/encoding")
+	public String encoding(String name){
+		return "参数:"+name;
+	}
+
+	/**
+	 * 获取配置的位于demo项目的自动加载数据
+	 * @return
+	 */
+	@RequestMapping("/hello")
+	public String getHello(){
+		return helloService.sayHello();
 	}
 
 	public static void main(String[] args) {

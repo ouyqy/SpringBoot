@@ -1,0 +1,4 @@
+
+#配置自动加载（若有多个自定配置，则用逗号隔开，此处“\”是为了换行后扔能读到属性）
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+spring.avalon.start.demo.config.HelloServiceAutoConfiguration
