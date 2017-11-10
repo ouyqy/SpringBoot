@@ -25,16 +25,11 @@
         <module name="SpringBootThread" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="demo" target="1.8" />
       <module name="SpringBootAnnotation" target="1.8" />
-      <module name="SpringBootAnnotations" target="1.8" />
-      <module name="SpringBootAno" target="1.5" />
-      <module name="SpringBootAOP" target="1.8" />
       <module name="SpringBootAware" target="1.8" />
       <module name="SpringBootBean" target="1.8" />
-      <module name="springbootbean" target="1.8" />
-      <module name="springbootcommonannotaion" target="1.8" />
       <module name="SpringBootCommonAnnotaion" target="1.8" />
       <module name="SpringBootContitional" target="1.8" />
       <module name="SpringBootEL" target="1.8" />
@@ -43,7 +38,6 @@
       <module name="SpringBootProfiles" target="1.8" />
       <module name="SpringBootSchedule" target="1.8" />
       <module name="SpringBootTest" target="1.8" />
-      <module name="springboottest" target="1.8" />
       <module name="SpringBootThread" target="1.8" />
     </bytecodeTargetLevel>
   </component>

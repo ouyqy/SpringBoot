@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<!--通过xmlns:th=http//www.thymeleaf.org命名空间，
+将镜头页面转换为动态的视图。需要进行动态处理的元素将使用th:为前缀-->
+<head>
+    <meta content="text/html" charset="UTF-8" ></meta>
+    <title>Thymeleaf Demo</title>
+    <!--<link th:src="@{bootstrap/css/bootstrap.min.css}" rel="stylesheet"/>-->
+    <!--<link th:src="@{bootstrap/css/bootstrap-theme.min.css}" rel="stylesheet"/>-->
+</head>
+<body>
+    <!--<script th:src="@{jquery-1.10.2.min.js}" type="text/javascript" />-->
+    <!--<script th:src="@{bootstrap/js/bootstrap.min.js}"/>-->
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h1 class="panel-title">访问model</h1>
+        </div>
+        <div class="panel-body">
+            <!--使用<span th:text='${singlePerson.name}'></span>访问model中singlePerson的name属性-->
+            <!--注意：需要处理的动态内容需要加上“th:”前缀-->
+            <h3>th:text(输出纯文本-文本替换)</h3>
+            <!--/*@thymesVar id="getHelloUrl" type="com.avalon.controller.ThymeleafController"*/-->
+            <span th:text="${getHelloUrl}">getHelloUrl...</span><br/>
+            <!--/*@thymesVar id="name" type="com.avalon.controller.ThymeleafController"*/-->
+            <span th:text="${name}">demo????......</span><br/>
+        </div>
+        <div>
+            <h3>th:utext(输出非转义文本类似于HTM--支持HTML的文本替换)</h3>
+            <!--/*@thymesVar id="getHelloUrl" type="com.avalon.controller.ThymeleafController"*/-->
+            <span th:utext="${getHelloUrl}">getHelloUrl...</span><br/>
+        </div>
+        <div>
+            <h3>th:id(替换id);th:value(属性赋值)</h3>
+            <!--/*@thymesVar id="id" type="com.avalon.controller.ThymeleafController"*/-->
+            <!--/*@thymesVar id="value" type="com.avalon.controller.ThymeleafController"*/-->
+            <input th:id="${id}" id="abc" th:value="${value}" value="ahahahaha!"/>
+        </div>
+        <div>
+            <h3>ht:object(替换对象)</h3>
+            <!--/*@thymesVar id="testValueLocalBean" type="com.avalon.controller.ThymeleafController"*/-->
+            <span th:object="${testValueLocalBean}"></span>
+        </div>
+        <div>
+            <h3></h3>
+        </div>
+        <!--bean-->
+        <div>
+            <h3>获取对象的值</h3>
+            <!--/*@thymesVar id="testValueLocalBean" type="com.avalon.bean.TestValueLocalBean"*/-->
+            <span th:text="${testValueLocalBean.name}"></span><br/>
+            <span th:text="${testValueLocalBean.email}"></span><br/>
+        </div>
+        <div>
+            <h3>th:with(变量赋值运算)</h3>
+            <!--/*@thymesVar id="num" type="com.avalon.controller.ThymeleafController"*/-->
+            <div th:with="isEven=${num}%2==0"><span th:text="${num}%2==0"></span></div>
+        </div>
+        <div>
+            <h3>th:style(设置样式)</h3>
+            <!--/*@thymesVar id="style" type="com.avalon.controller.ThymeleafController"*/-->
+            <div th:style="${style}"></div>
+        </div>
+        <div>
+            <h3>th:onclick(点击事件)</h3>
+            <!--/*@thymesVar id="onclick" type="com.avalon.controller.ThymeleafController"*/-->
+            <span th:onclick="${onclick}">点击我试试<span id="click233">(￣o￣) . z Z</span>　</span>
+        </div>
+        <div>
+            <h3>操作数字:+-*/%</h3>
+            <!--/*@thymesVar id="num" type="com.avalon.controller.ThymeleafController"*/-->
+            <span th:width="${num}"></span>
+            <span th:text="'num:'+${num}"></span>
+        </div>
+    </div>
+</body>
+</html>
