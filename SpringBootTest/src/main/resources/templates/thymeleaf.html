@@ -66,6 +66,23 @@
             <span th:onclick="${onclick}">点击我试试<span id="click233">(￣o￣) . z Z</span>　</span>
         </div>
         <div>
+            <h3>th:each</h3>
+            <!--/*@thymesVar id="#list" type="com.avalon.controller.ThymeleafController"*/-->
+            <div th:each="bean,beanStat:${list}">
+                <span th:text="${bean.name}"></span><br/>
+                <span th:text="${bean.password}"></span><br/>
+                <span th:text="'index:'+${beanStat.index}"></span><br/>
+                <span th:text="'count:'+${beanStat.count}"></span><br/>
+                <span th:text="'even:'+${beanStat.even}"></span><br/>
+                <span th:text="'first:'+${beanStat.first}"></span><br/>
+                <span th:text="'last:'+${beanStat.last}"></span><br/>
+                <span th:text="'odd:'+${beanStat.odd}"></span><br/>
+                <span th:text="'size:'+${beanStat.size}"></span><br/>
+                <span th:text="'----------------'"></span><br/><br/>
+
+            </div>
+        </div>
+        <div>
             <h3>操作数字:+-*/%</h3>
             <!--/*@thymesVar id="num" type="com.avalon.controller.ThymeleafController"*/-->
             <span th:width="${num}"></span>
