@@ -43,13 +43,24 @@ public class ThymeleafController {
         model.addAttribute("onclick","document.getElementById('click233').innerHTML='(⊙o⊙)…'");
 
         List<TestValueBean> list = new ArrayList<TestValueBean>();
-        for(int i =0;i<10;i++){
+        for(int i =0;i<3;i++){
             TestValueBean testValueBean = new TestValueBean();
             testValueBean.setName("name@index-"+i);
             testValueBean.setPassword("password@index"+i);
             list.add(testValueBean);
         }
         model.addAttribute("list",list);
+
+        List<TestValueBean> list1 = new ArrayList<>();
+        TestValueBean testValueBean1 = new TestValueBean();
+        testValueBean1.setName("MAN");
+        testValueBean1.setPassword("MAN@EMAIL(⊙o⊙)…");
+        TestValueBean testValueBean2 = new TestValueBean();
+        testValueBean2.setName("WOMEN");
+        testValueBean2.setPassword("WOMEN@EMAIL(¦3[▓▓] 晚安");
+        list1.add(testValueBean1);
+        list1.add(testValueBean2);
+        model.addAttribute("listPeople",list1);
         return "thymeleaf";
     }
 }
