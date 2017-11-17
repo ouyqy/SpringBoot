@@ -1,2 +1,10 @@
 server:
   context-path: /multipartfile
+  port: 9110
+spring:
+  http:
+    multipart:
+      max-file-size: 10Mb
+      max-request-size: 100Mb
+file:
+  address: ../upload/

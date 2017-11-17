@@ -14,7 +14,7 @@ public class MultipartResolver {
     public org.springframework.web.multipart.MultipartResolver multipartResolver(){
         CommonsMultipartResolver multipartResolver =
                 new CommonsMultipartResolver();
-        multipartResolver.setMaxUploadSize(1000000);
+//        multipartResolver.setMaxUploadSize(22485761L);
         return multipartResolver;
     }
 

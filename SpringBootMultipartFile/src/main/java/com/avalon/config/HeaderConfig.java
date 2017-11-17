@@ -26,7 +26,7 @@ public class HeaderConfig {
     }
 
     @Bean
-    public FilterRegistrationBean corsFilterRegistration(){
+    public FilterRegistrationBean filterRegistration(){
         FilterRegistrationBean bean = new FilterRegistrationBean(corsFilter());
         bean.setOrder(0);
         return bean;
