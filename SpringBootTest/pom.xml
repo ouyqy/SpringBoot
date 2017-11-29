@@ -58,6 +58,11 @@
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 			<version>1.5.7.RELEASE</version>
 		</dependency>
+
+		<dependency>
+			<groupId>net.java.dev.jna</groupId>
+			<artifactId>jna</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
