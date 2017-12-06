@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/SpringBootCommonAnnotaion/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootMultipartFile/pom.xml" />
         <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/websocket/pom.xml" />
       </list>
     </option>
   </component>

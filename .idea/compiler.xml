@@ -23,6 +23,7 @@
         <module name="springboottest" />
         <module name="SpringBootTest" />
         <module name="SpringBootThread" />
+        <module name="websocket" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -39,6 +40,7 @@
       <module name="SpringBootSchedule" target="1.8" />
       <module name="SpringBootTest" target="1.8" />
       <module name="SpringBootThread" target="1.8" />
+      <module name="websocket" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
