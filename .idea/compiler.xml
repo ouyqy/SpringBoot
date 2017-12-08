@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="boostrapangular" />
         <module name="demo" />
         <module name="SpringBootAnnotation" />
         <module name="SpringBootAno" />
@@ -27,6 +28,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="boostrapangular" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="SpringBootAnnotation" target="1.8" />
       <module name="SpringBootAware" target="1.8" />

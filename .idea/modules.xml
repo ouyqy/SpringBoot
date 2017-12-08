@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/SpringBoot.iml" filepath="$PROJECT_DIR$/.idea/SpringBoot.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootAnnotation/SpringBootAnnotation.iml" filepath="$PROJECT_DIR$/SpringBootAnnotation/SpringBootAnnotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootAware/SpringBootAware.iml" filepath="$PROJECT_DIR$/SpringBootAware/SpringBootAware.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootBean/SpringBootBean.iml" filepath="$PROJECT_DIR$/SpringBootBean/SpringBootBean.iml" />
@@ -15,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringBootSchedule/SpringBootSchedule.iml" filepath="$PROJECT_DIR$/SpringBootSchedule/SpringBootSchedule.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootTest/SpringBootTest.iml" filepath="$PROJECT_DIR$/SpringBootTest/SpringBootTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootThread/SpringBootThread.iml" filepath="$PROJECT_DIR$/SpringBootThread/SpringBootThread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boostrapangular/boostrapangular.iml" filepath="$PROJECT_DIR$/boostrapangular/boostrapangular.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/websocket/websocket.iml" filepath="$PROJECT_DIR$/websocket/websocket.iml" />
     </modules>
