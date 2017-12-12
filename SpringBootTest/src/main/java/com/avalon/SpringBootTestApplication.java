@@ -2,6 +2,7 @@ package com.avalon;
 
 import com.avalon.bean.TestValueBean;
 import com.avalon.bean.TestValueLocalBean;
+import com.avalon.webservice.WebServiceWSDLController2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.Banner;
@@ -10,6 +11,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import spring.avalon.start.demo.service.HelloService;
+
+import javax.xml.ws.Endpoint;
 
 @SpringBootApplication
 @RestController
@@ -64,5 +67,8 @@ public class SpringBootTestApplication {
 		SpringApplication app = new SpringApplication();
 		app.setBannerMode(Banner.Mode.LOG);
 		app.run(SpringBootTestApplication.class,args);
+
+		Endpoint.publish("http://localhost:9090/webservice/WebServiceWSDLController2",new WebServiceWSDLController2());
+		System.out.println("service success");
 	}
 }
