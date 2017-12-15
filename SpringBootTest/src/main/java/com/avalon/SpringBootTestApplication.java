@@ -2,20 +2,27 @@ package com.avalon;
 
 import com.avalon.bean.TestValueBean;
 import com.avalon.bean.TestValueLocalBean;
+import com.avalon.test.annotation.Message;
 import com.avalon.webservice.WebServiceWSDLController2;
+import org.apache.tomcat.util.codec.binary.Base64;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import spring.avalon.start.demo.service.HelloService;
 
 import javax.xml.ws.Endpoint;
+import java.util.HashMap;
+import java.util.Map;
 
 @SpringBootApplication
 @RestController
+@EnableAspectJAutoProxy
 public class SpringBootTestApplication {
 
 	@Value("${test.name}")
@@ -51,6 +58,14 @@ public class SpringBootTestApplication {
 	@RequestMapping("/encoding")
 	public String encoding(String name){
 		return "参数:"+name;
+	}
+
+	@Message()
+	@RequestMapping("/getValue/{value}")
+	public Map<String,String> getValue(@PathVariable String value){
+		Map<String,String> map = new HashMap<>();
+		map.put("value", Base64.encodeBase64URLSafeString(value.getBytes()));
+		return map;
 	}
 
 	/**

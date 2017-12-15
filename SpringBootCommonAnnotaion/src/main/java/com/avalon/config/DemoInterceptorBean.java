@@ -29,6 +29,6 @@ public class DemoInterceptorBean extends WebMvcConfigurerAdapter{
     //重写addInterceptor方法,注册拦截器
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(demoInterceptor());
+        registry.addInterceptor(demoInterceptor()).addPathPatterns(new String[]{"/anno/**"}).excludePathPatterns(new String[]{"/rest/**"});
     }
 }
