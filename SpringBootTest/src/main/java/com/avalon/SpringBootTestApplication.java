@@ -63,7 +63,7 @@ public class SpringBootTestApplication {
 	@Message()
 	@RequestMapping("/getValue/{value}")
 	public Map<String,String> getValue(@PathVariable String value){
-		Map<String,String> map = new HashMap<>();
+		Map<String,String> map = new HashMap<String,String>();
 		map.put("value", Base64.encodeBase64URLSafeString(value.getBytes()));
 		return map;
 	}

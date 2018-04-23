@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/SpringBootSchedule/SpringBootSchedule.iml" filepath="$PROJECT_DIR$/SpringBootSchedule/SpringBootSchedule.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootTest/SpringBootTest.iml" filepath="$PROJECT_DIR$/SpringBootTest/SpringBootTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootThread/SpringBootThread.iml" filepath="$PROJECT_DIR$/SpringBootThread/SpringBootThread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/amqp/amqp.iml" filepath="$PROJECT_DIR$/amqp/amqp.iml" />
       <module fileurl="file://$PROJECT_DIR$/boostrapangular/boostrapangular.iml" filepath="$PROJECT_DIR$/boostrapangular/boostrapangular.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/websocket/websocket.iml" filepath="$PROJECT_DIR$/websocket/websocket.iml" />

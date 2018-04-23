@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="amqp" />
         <module name="boostrapangular" />
         <module name="demo" />
         <module name="SpringBootAnnotation" />
@@ -28,21 +29,22 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="boostrapangular" target="1.8" />
+      <module name="amqp" target="1.8" />
+      <module name="boostrapangular" target="1.5" />
       <module name="demo" target="1.8" />
       <module name="SpringBootAnnotation" target="1.8" />
       <module name="SpringBootAware" target="1.8" />
       <module name="SpringBootBean" target="1.8" />
-      <module name="SpringBootCommonAnnotaion" target="1.8" />
+      <module name="SpringBootCommonAnnotaion" target="1.5" />
       <module name="SpringBootContitional" target="1.8" />
       <module name="SpringBootEL" target="1.8" />
       <module name="SpringBootEvent" target="1.8" />
-      <module name="SpringBootMultipartFile" target="1.8" />
+      <module name="SpringBootMultipartFile" target="1.5" />
       <module name="SpringBootProfiles" target="1.8" />
       <module name="SpringBootSchedule" target="1.8" />
-      <module name="SpringBootTest" target="1.8" />
+      <module name="SpringBootTest" target="1.5" />
       <module name="SpringBootThread" target="1.8" />
-      <module name="websocket" target="1.8" />
+      <module name="websocket" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

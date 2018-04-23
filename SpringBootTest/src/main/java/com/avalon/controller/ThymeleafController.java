@@ -51,7 +51,7 @@ public class ThymeleafController {
         }
         model.addAttribute("list",list);
 
-        List<TestValueBean> list1 = new ArrayList<>();
+        List<TestValueBean> list1 = new ArrayList<TestValueBean>();
         TestValueBean testValueBean1 = new TestValueBean();
         testValueBean1.setName("MAN");
         testValueBean1.setPassword("MAN@EMAIL(⊙o⊙)…");

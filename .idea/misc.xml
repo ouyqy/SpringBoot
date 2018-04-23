@@ -4,7 +4,6 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/SpringBootAno/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringBootEL/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootBean/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootProfiles/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootEvent/pom.xml" />
@@ -19,6 +18,7 @@
         <option value="$PROJECT_DIR$/demo/pom.xml" />
         <option value="$PROJECT_DIR$/websocket/pom.xml" />
         <option value="$PROJECT_DIR$/boostrapangular/pom.xml" />
+        <option value="$PROJECT_DIR$/amqp/pom.xml" />
       </list>
     </option>
   </component>
